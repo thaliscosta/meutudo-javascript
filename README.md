@@ -6,6 +6,8 @@ Este projeto é um simples simulador de conversão de moedas que permite convert
 
 - Conversão de valores em reais para dólar americano (USD), euro (EUR) e bitcoin (BTC)
 
+[Link do projeto](https://simulador-moedas.netlify.app/)
+
 ## Instalação e Uso
 
 1. Clone o repositório para o seu computador local:
