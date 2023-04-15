@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>meutudo | Simulador de Conversão de Moeda</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <a href="https://meutudo.com.br/" target="_blank" class="logo">
+            <img src="images/logo.webp" alt="">
+        </a>
+    </header>
+
+    <main>
+        <div class="container">
+
+            <form id="formConversion">
+
+                <div class="form-item">
+                    <label for="currency">Selecione a moeda:</label>
+                    <select name="currency" id="currency">
+                        <option value="">Dólar (USD)</option>
+                        <option value="">Euro (EUR)</option>
+                        <option value="">Bitcoin (BTC)</option>
+                    </select>
+                </div>
+                <div class="form-item">
+                    <label for="amount">Valor em Reais (R$):</label>
+                    <input type="text" name="amount" id="amount" required>
+                </div>
+                <button type="submit">Simular</button>
+
+            </form>
+
+        </div>
+    </main>
+
+    <script src="js/axios.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
