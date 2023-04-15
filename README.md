@@ -12,5 +12,6 @@ Este projeto é um simples simulador de conversão de moedas que permite convert
 
 ```bash
 git clone https://github.com/thaliscosta/meutudo-javascript.git
+```
 
 2. Abra o arquivo `index.html` no seu navegador para começar a usar a calculadora.
