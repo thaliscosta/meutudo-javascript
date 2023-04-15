@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>meutudo | Simulador de Conversão de Moeda</title>
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -22,22 +23,25 @@
                 <div class="form-item">
                     <label for="currency">Selecione a moeda:</label>
                     <select name="currency" id="currency">
-                        <option value="">Dólar (USD)</option>
-                        <option value="">Euro (EUR)</option>
-                        <option value="">Bitcoin (BTC)</option>
+                        <option value="USD">Dólar (USD)</option>
+                        <option value="EUR">Euro (EUR)</option>
+                        <option value="BTC">Bitcoin (BTC)</option>
                     </select>
                 </div>
                 <div class="form-item">
                     <label for="amount">Valor em Reais (R$):</label>
-                    <input type="text" name="amount" id="amount" required>
+                    <input type="text" name="amount" id="amount" required placeholder="Digite aqui o valor em reais">
                 </div>
                 <button type="submit">Simular</button>
 
             </form>
 
+            <div id="result"></div>
+
         </div>
     </main>
 
+    <script src="js/vanilla-masker.min.js"></script>
     <script src="js/axios.min.js"></script>
     <script src="js/script.js"></script>
 </body>
